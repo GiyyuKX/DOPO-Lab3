@@ -85,6 +85,20 @@ public class EcoSafari{
     //First, all entities execute their tic() action
     //Then, all entities execute their tac() actions
     public void ticTac(){  
+        for (int r = 0; r < SIZE; r++) {
+            for (int c = 0; c < SIZE; c++) {
+                if (cells[r][c] != null) {
+                cells[r][c].tic();
+                 }
+            }
+        }
+        for (int r = 0; r < SIZE; r++) {
+            for (int c = 0; c < SIZE; c++) {
+                if (cells[r][c] != null) {
+                cells[r][c].tac();
+                }
+            }
+        }
     }
 
 }
