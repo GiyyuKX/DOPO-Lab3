@@ -17,8 +17,12 @@ public class EcoSafari{
     /**
      * Pupulates the EcoSafari with some entities
      */
-    public void someEntities(){   
- 
+    public void someEntities(){  
+        new Elephant(this, 5, 5);   // dumbo
+        new Elephant(this, 10, 10); // babar
+        new Bush(this, 0, 0);       // mopane
+        new Bush(this, 20, 20);     // acacia
+    
     }
     
     /**
