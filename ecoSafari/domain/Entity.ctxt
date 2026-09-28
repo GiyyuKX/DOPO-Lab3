@@ -1,19 +1,13 @@
 #BlueJ class context
+#Sun Sep 27 21:44:13 COT 2026
 comment0.target=Entity
-comment1.params=
-comment1.target=void\ tic()
-comment2.params=
-comment2.target=void\ tac()
-comment3.params=
-comment3.target=int\ shape()
-comment4.params=
-comment4.target=java.awt.Color\ getColor()
-comment5.params=
-comment5.target=boolean\ isOrganism()
-comment6.params=
-comment6.target=EcoSafari\ getHabitat()
-comment7.params=
-comment7.target=boolean\ disappear()
-comment8.params=deltaRows\ deltaColumns
-comment8.target=boolean\ move(int,\ int)
+comment1.target=void tic()
+comment2.target=void tac()
+comment3.target=int shape()
+comment4.target=java.awt.Color getColor()
+comment5.target=boolean isOrganism()
+comment6.target=EcoSafari getHabitat()
+comment7.target=boolean disappear()
+comment8.params=deltaRows deltaColumns
+comment8.target=boolean move(int, int)
 numComments=9

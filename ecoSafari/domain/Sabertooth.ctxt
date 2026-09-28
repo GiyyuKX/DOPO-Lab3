@@ -1,11 +1,14 @@
 #BlueJ class context
 #Sun Sep 27 21:44:13 COT 2026
-comment0.target=Elephant
+comment0.target=Sabertooth
 comment1.params=habitat row column
-comment1.target=Elephant(EcoSafari, int, int)
+comment1.target=Sabertooth(EcoSafari, int, int)
 comment2.target=EcoSafari getHabitat()
 comment3.target=java.awt.Color getColor()
 comment4.target=int shape()
 comment5.target=void tic()
 comment6.target=void tac()
-numComments=7
+comment7.target=int[] findElephant()
+comment8.params=position
+comment8.target=void eatElephant(int[])
+numComments=9

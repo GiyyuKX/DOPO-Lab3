@@ -77,6 +77,24 @@ public class EcoSafariGUI extends JFrame{
             }       
             for (int f=0;f<theEcoSafari.getSize();f++){
                 for(int c=0;c<theEcoSafari.getSize();c++){
+                    
+                    if (theEcoSafari.get(f,c) instanceof Storm) {
+                        g.setColor(Color.LIGHT_GRAY);
+                        for (int r = f - 1; r <= f + 1; r++) {
+                            for (int col = c - 1; col <= c + 1; col++) {
+            
+                                if (theEcoSafari.isInside(r, col)) {
+                                    g.fillRect(
+                                        gui.SIDE * col + 1,
+                                        gui.SIDE * r + 1,
+                                        gui.SIDE - 2,
+                                        gui.SIDE - 2
+                                    );
+                                }
+                            }
+                        }
+                    }
+                    
                     if (theEcoSafari.get(f,c)!=null){
                         g.setColor(theEcoSafari.get(f,c).getColor());
                         if (theEcoSafari.get(f,c).shape()==Entity.SQUARE){                  

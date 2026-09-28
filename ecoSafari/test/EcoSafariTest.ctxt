@@ -1,0 +1,13 @@
+#BlueJ class context
+#Sun Sep 27 21:39:31 COT 2026
+comment0.target=EcoSafariTest
+comment0.text=\r\n The test class Test.\r\n
+comment1.target=EcoSafariTest()
+comment2.target=void setUp()
+comment3.target=void shouldMoveDiagonally()
+comment4.target=void shouldDestroyEntity()
+comment5.target=void shouldBothHungryElephantsEat()
+comment6.target=void shouldEatElephantFromFarAway()
+comment7.target=void shouldMoveTwoCellsAndLoseFiveEnergy()
+comment8.target=void shouldBothSabertoothsEatDifferentElephants()
+numComments=9

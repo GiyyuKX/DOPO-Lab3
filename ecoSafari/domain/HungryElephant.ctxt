@@ -1,0 +1,9 @@
+#BlueJ class context
+#Sun Sep 27 21:44:13 COT 2026
+comment0.target=HungryElephant
+comment1.params=habitat row column
+comment1.target=HungryElephant(EcoSafari, int, int)
+comment2.target=void tic()
+comment3.target=void tac()
+comment4.target=boolean eatBush()
+numComments=5
