@@ -13,15 +13,14 @@ import org.junit.jupiter.api.Test;
  * @author  (your name)
  * @version (a version number or a date)
  */
-public class Test
+public class EcoSafariTest
 {
     /**
      * Default constructor for test class Test
      */
-    public Test()
+    public EcoSafariTest()
     {
     }
-
     /**
      * Sets up the test fixture.
      *
